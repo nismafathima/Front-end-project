@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+background-color: pink;
+}
+
+.playwrite-gb-s-<uniquifier> {
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.navbar{
+    display: flex;   
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+
+}
+.navbarlinks {
+display: flex;
+column-gap: 10px;
+}
+.sidenavbar{
+    background-color: pink;
+    width: 30%;
+    height: 80%;
+    position: fixed;
+    top: 0%;
+    left: -70%;
+    padding: 50px;
+    transition: 2s;
+    
+}
+.sidenavbarlinks{
+    margin-bottom: 40px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+button{
+     padding: 10px;
+     border: 3px;
+     border-radius: 5px;
+     background-color: black;
+     color: white;
+}
+.header2{   
+    padding: 50px;
+}
+.service1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.service2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.service3{
+    background-color:salmon;
+    border: 3px;
+    border-radius: 20px;
+    padding: 20px;
+    gap: 5px;
+    margin-top: 10px;
+}
+.newarrival{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-top: 40px;
+    
+    
+}
+.newarrival1{
+    position: relative;
+    flex-basis: 20%;
+}
+h2{
+    margin-top: 20px;
+}
+.mw{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-top: 40px;
+    
+    
+}
+.mw1{
+    position: relative;
+    flex-basis: 20%;
+}
+.nl{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    gap: 10px;
+}
+
+.nl1{
+    width: 200px;
+}
+
+
+.footer{
+    background-color: salmon;
+    padding: 30px;
+    margin-top: 20px;
+    
+}
+.pt{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px;
+gap: 40px;
+
+}
+
+.pt1{
+    position: relative;
+    flex-basis: 20%;
+    font-size: large;
+}
+.productsearch{
+    width: 80%;
+    border: solid black 2px;
+    border-radius: 20px;
+    display: flex;
+    margin: 40px;
+    padding: 10px;
+    margin-right: 40px;
+    justify-content: space-between;
+    
+}
+input{
+    background-color: transparent ;
+    color: black;
+    width: 80%;
+    border: none;
+}
+.contact{
+    background-color: antiquewhite;
+    padding: 50px;
+    
+    margin-left: 60px;
+    gap: 30px;
+    border-radius: 40px;
+    width:fit-content ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.img{
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width:700px) {
+    .navbarmenu{
+        display: block;  
+    }
+    .navbarlinks{
+        display: none;
+    }
+    .header2{
+        display: none;
+    }
+    .service1{
+        display: none;   
+    }
+    .service2,.service3{
+        flex-direction: column;
+    }
+}
